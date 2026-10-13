@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reception Invitation | Sanjith & Dhana</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Falling Flowers -->
+<div class="flowers-container" id="flowersContainer"></div>
+
+  
+<!-- Animated Envelope Opening -->
+<section class="opening-screen" id="openingScreen">
+
+  <div class="envelope-scene" id="envelopeScene">
+
+    <div class="envelope" id="envelope">
+
+      <!-- Letter inside the envelope -->
+      <div class="envelope-letter">
+        <p class="letter-small">A SPECIAL INVITATION</p>
+        <h2>Sanjith<br><span>&</span><br>Dhana</h2>
+        <p class="letter-date">RECEPTION CELEBRATION</p>
+      </div>
+
+      <!-- Envelope body -->
+      <div class="envelope-body"></div>
+
+      <!-- Envelope flap -->
+      <div class="envelope-flap"></div>
+
+      <!-- Wax seal -->
+      <button class="wax-seal" id="openInvitation" aria-label="Open invitation">
+        <span>S</span>
+        <small>&</small>
+        <span>D</span>
+      </button>
+
+    </div>
+
+    <p class="envelope-hint">Tap the seal to open</p>
+
+  </div>
+
+</section>
+
+  <!-- Main Invitation -->
+  <main class="invitation" id="invitation">
+
+    <!-- Premium Hero -->
+    <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern"></div>
+
+    <div class="hero-content">
+        <div class="hero-ornament top-ornament">
+        <span>✦</span>
+        <span>❈</span>
+        <span>✦</span>
+        </div>
+
+        <p class="small-heading hero-label">WITH LOVE AND BLESSINGS</p>
+
+        <div class="name-reveal" id="nameReveal">
+        <h1>
+            <span class="name-first">Sanjith</span>
+            <span class="name-ampersand">&amp;</span>
+            <span class="name-second">Dhana</span>
+        </h1>
+
+        <div class="heart-divider">
+            <span></span>
+            <b>♡</b>
+            <span></span>
+        </div>
+        </div>
+
+        <p class="hero-subtitle">
+        Request the pleasure of your company
+        </p>
+
+        <div class="hero-ornament">
+        <span>❈</span>
+        </div>
+
+        <p class="hero-date">AT OUR WEDDING RECEPTION</p>
+
+        <div class="scroll-indicator">
+        <span class="scroll-mouse"></span>
+        <small>SCROLL TO EXPLORE</small>
+        <span class="scroll-arrow">⌄</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- Couple Photo -->
+    <section class="photo-section reveal">
+      <div class="photo-frame">
+        <img src="assets/couple.png" alt="Bride and Groom" />
+      </div>
+      <p class="photo-caption">Two hearts, one beautiful journey</p>
+    </section>
+
+    <!-- Invitation Message -->
+    <section class="message-section reveal">
+      <p class="small-heading">A SPECIAL INVITATION</p>
+      <h2>Join Us in Celebration</h2>
+      <p>
+        With the blessings of our parents and loved ones,
+        we invite you to join us as we celebrate this
+        beautiful occasion and begin a new chapter together.
+      </p>
+      <div class="divider">❈</div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="details-section reveal">
+      <p class="small-heading">SAVE THE DATE</p>
+      <h2>Reception Details</h2>
+
+      <div class="details-grid">
+        <div class="detail-card">
+          <div class="detail-icon">◈</div>
+          <h3>DATE</h3>
+          <p>Friday</p>
+          <strong>13 November 2026</strong>
+        </div>
+
+        <div class="detail-card">
+          <div class="detail-icon">◷</div>
+          <h3>TIME</h3>
+          <p>Reception</p>
+          <strong>6:00 PM onwards</strong>
+        </div>
+
+        <div class="detail-card full-width">
+          <div class="detail-icon">⌖</div>
+          <h3>VENUE</h3>
+          <p>PNK Celebration Hall</p>
+          <strong>Oddanchatram, Tamil Nadu</strong>
+          <a
+            class="text-link"
+            href="https://www.google.com/maps/place/PNK+Thiriumana+mandapam./@10.5004649,77.7451916,870m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3ba9fb330c7689b5:0xc2b5bec63afad326!8m2!3d10.5004649!4d77.7477665!16s%2Fg%2F11cn93qbdf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View Location →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section reveal">
+      <p class="small-heading">COUNTING THE MOMENTS</p>
+      <h2>Until We Celebrate</h2>
+
+      <div class="countdown" id="countdown">
+        <div class="count-box">
+          <span id="days">00</span>
+          <small>DAYS</small>
+        </div>
+        <div class="count-box">
+          <span id="hours">00</span>
+          <small>HOURS</small>
+        </div>
+        <div class="count-box">
+          <span id="minutes">00</span>
+          <small>MINUTES</small>
+        </div>
+        <div class="count-box">
+          <span id="seconds">00</span>
+          <small>SECONDS</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section reveal">
+      <p class="small-heading">OUR MEMORIES</p>
+      <h2>A Few Moments</h2>
+
+      <div class="gallery">
+        <img src="assets/memory_1.jpeg" alt="Our memory 1" />
+        <img src="assets/memory_2.jpeg" alt="Our memory 2" />
+        <img src="assets/memory_3.jpeg" alt="Our memory 3" />
+      </div>
+
+    </section>
+
+    <!-- Premium Footer -->
+    <footer class="premium-footer">
+
+    <div class="footer-glow"></div>
+    <div class="footer-border top-border"></div>
+
+    <div class="footer-content">
+
+        <p class="small-heading footer-heading">
+        WITH LOVE AND GRATITUDE
+        </p>
+
+        <div class="footer-ornament">✦ ❈ ✦</div>
+
+        <div class="footer-names">
+        <span>Sanjith</span>
+        <b>&amp;</b>
+        <span>Dhana</span>
+        </div>
+
+        <div class="footer-heart-divider">
+        <span></span>
+        <b>♡</b>
+        <span></span>
+        </div>
+
+        <p class="footer-thankyou">
+        Thank you for being a part<br />
+        of our journey
+        </p>
+
+        <div class="footer-divider">
+        <span></span>
+        <b>❈</b>
+        <span></span>
+        </div>
+
+        <p class="footer-message">
+        With love, we look forward to<br />
+        celebrating with you.
+        </p>
+
+        <div class="footer-double-heart">♡♡</div>
+
+        <p class="footer-together">TOGETHER ALWAYS</p>
+
+        <div class="footer-bottom-ornament">❧</div>
+
+    </div>
+
+    <div class="footer-border bottom-border"></div>
+    
+    
+</footer>
+
+</main>
+
+<!-- Background Music -->
+<!-- Background Music -->
+<audio id="backgroundMusic" loop preload="auto">
+  <source src="assets/Music.m4a" type="audio/mp4" />
+  Your browser does not support audio playback.
+</audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
